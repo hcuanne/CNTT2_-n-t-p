@@ -1,7 +1,7 @@
 # BÀI LÀM PHA 2
 
-- **Họ tên:** [Điền họ tên]
-- **Lớp:** [Điền lớp]
+- **Họ tên:** Nguyễn Hồng Quân
+- **Lớp:** CNTT2
 - **Link repository Pha2:** [Điền link GitHub]
 - **Công cụ AI đã dùng (ChatGPT/Claude/Gemini):** ChatGPT (kết quả mô phỏng để ôn tập)
 
@@ -40,7 +40,6 @@
 ]
 ```
 
-**Link trò chuyện:** [Điền link Share sau khi chạy prompt thực tế]
 
 ## 4.3. Báo giá vé bằng Chain-of-Thought
 
@@ -56,7 +55,6 @@ B6. Tổng tiền: 7.296.000 + 300.000 = 7.596.000 đồng.
 [RESULT: 7.596.000 đồng]
 ```
 
-**Link trò chuyện:** [Điền link Share sau khi chạy prompt thực tế]
 
 ### b) Kiểm tra kết quả AI
 
@@ -75,7 +73,6 @@ AI tính **đúng** cả 6 bước theo bảng giá và quy tắc. Tổng tiền
 }
 ```
 
-**Link trò chuyện:** [Điền link Share sau khi chạy prompt thực tế]
 
 ## 4.5. Prompt chấm bài theo Rubric
 
@@ -89,4 +86,4 @@ AI tính **đúng** cả 6 bước theo bảng giá và quy tắc. Tổng tiền
 
 **Tổng điểm: 3/10.**
 
-**Link trò chuyện:** [Điền link Share sau khi chạy prompt thực tế]
+
