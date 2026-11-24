@@ -1,7 +1,7 @@
 # BÀI LÀM PHA 1
 
-- **Họ tên:** [Điền họ tên]
-- **Lớp:** [Điền lớp]
+- **Họ tên:** Nguyễn Hồng Quân
+- **Lớp:** CNTT2
 - **Link repository Pha1:** [Điền link GitHub]
 
 ## 4.1. Bảo vệ dữ liệu và chống ảo giác
