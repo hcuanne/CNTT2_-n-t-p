@@ -106,8 +106,8 @@ Mỗi bước phải có phép tính cụ thể và số tiền bằng đồng. 
 **PROMPT**
 
 ```text
-Bạn là Trạm 1 trong dây chuyền xử lý khiếu nại Cúp Sao Vàng. Đọc email dưới đây và phân loại chính xác sự cố.
-
+Bạn là chuyên gia trong dây chuyền xử lý khiếu nại Cúp Sao Vàng. Đọc email dưới đây và phân loại chính xác sự cố.
+Tôi là khán giả mua vé gói SVT trận Cúp Sao Vàng ngày 02/11/2026, đi 2 người lớn. Ban tổ chức cam kết khu khán đài có mái che nhưng trong 2 hiệp đầu chúng tôi bị xếp sang khu không mái, trời mưa và ghế ướt. Nhân viên soát vé rất nhiệt tình, tôi không có gì phàn nàn về nhân viên. Tôi đề nghị ban tổ chức giải quyết thỏa đáng.
 Chỉ trả về một đối tượng JSON với đúng 4 trường:
 - "loai_su_co": chuỗi, chỉ được là một trong "tran_gio", "sai_khu_vuc", "nhan_vien", "khac".
 - "so_khach": số nguyên, là số khán giả bị ảnh hưởng.
@@ -116,11 +116,6 @@ Chỉ trả về một đối tượng JSON với đúng 4 trường:
 
 Quy tắc: tran_gio = trận bắt đầu trễ; sai_khu_vuc = bố trí chỗ ngồi/khu vực không đúng quyền lợi cam kết; nhan_vien = phàn nàn về nhân viên; khac = trường hợp còn lại. Nếu email khen nhân viên thì không phân loại thành nhan_vien.
 
-<email_khieu_nai>
-Tôi là khán giả mua vé gói SVT trận Cúp Sao Vàng ngày 02/11/2026, đi 2 người lớn. Ban tổ chức cam kết khu khán đài có mái che nhưng trong 2 hiệp đầu chúng tôi bị xếp sang khu không mái, trời mưa và ghế ướt. Nhân viên soát vé rất nhiệt tình, tôi không có gì phàn nàn về nhân viên. Tôi đề nghị ban tổ chức giải quyết thỏa đáng.
-</email_khieu_nai>
-
-Chỉ xuất một JSON hợp lệ, không có văn bản, giải thích hoặc dấu Markdown ở ngoài.
 ```
 
 ### b) Hai điều cần kiểm tra ở JSON đầu ra của Trạm 1
